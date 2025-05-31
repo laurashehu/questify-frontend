@@ -39,7 +39,12 @@ Actively in development – frontend only for now.
 
 
 
-![image](https://github.com/user-attachments/assets/999da7a2-b2b0-498e-99f2-c4d1f3186917)
+![image](https://github.com/user-attachments/assets/77bcdd19-874b-4ffc-ab02-a031aaaa1ef1)
+![image](https://github.com/user-attachments/assets/36eeb92e-dba7-4709-8883-ecc56e738f59)
+![image](https://github.com/user-attachments/assets/c845fc81-edc6-435e-89c9-668a24136bd2)
+
+
+
 
 
 
