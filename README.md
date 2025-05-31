@@ -35,7 +35,7 @@ Actively in development – frontend only for now.
 
 
 
-**Authentication Page + Community Guidelines**
+**Authentication Page + Terms & Conditions**
 
 
 
