@@ -1,0 +1,93 @@
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../../resources/LoginSignup/bg.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.termsLabel {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #ddd;
+  margin: 0.5rem 0 1rem;
+
+  input[type='checkbox'] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+  }
+
+  a {
+    color: #013b29; // goldish dune vibe
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+.formContainer {
+  background-color: rgba(20, 20, 20, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 200, 120, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.titleImage img {
+  max-width: 180px;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.6rem 1rem;
+  margin: 0.6rem auto;
+  display: block;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #2e2e2e;
+  color: #f4f4f4;
+
+  &:focus {
+    outline: none;
+    border-color: #C2B280;
+    box-shadow: 0 0 5px rgba(194, 178, 128, 0.5);
+  }
+}
+
+.submitButton {
+  background-color: #C2B280;
+  color: #1c1c1c;
+  border: none;
+  padding: 0.75rem;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #a69366;
+  }
+}
+
+.switchButton {
+  background: none;
+  color: #e0d7c5;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}

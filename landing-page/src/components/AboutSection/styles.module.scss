@@ -1,0 +1,64 @@
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  gap: 40px;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.imageSide {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    max-height: 900px;
+    object-fit: contain;
+     mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%23000" d="M28.4,-45.6C37.3,-38.4,45.3,-31.4,52.6,-22.1C60,-12.7,66.6,-1.1,66.1,10.2C65.6,21.6,58,32.7,50,45C41.9,57.4,33.4,71.1,20.7,78.4C8,85.8,-8.9,86.8,-24,82.1C-39.1,77.5,-52.4,67.2,-61.8,54.6C-71.1,41.9,-76.4,26.8,-73.3,13.8C-70.1,0.7,-58.5,-10.3,-50.1,-20.6C-41.8,-30.8,-36.8,-40.2,-29,-47.8C-21.2,-55.4,-10.6,-61.3,-0.4,-60.6C9.7,-59.9,19.5,-52.7,28.4,-45.6Z" transform="translate(100 100)" /></svg>');
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%23000" d="M28.4,-45.6C37.3,-38.4,45.3,-31.4,52.6,-22.1C60,-12.7,66.6,-1.1,66.1,10.2C65.6,21.6,58,32.7,50,45C41.9,57.4,33.4,71.1,20.7,78.4C8,85.8,-8.9,86.8,-24,82.1C-39.1,77.5,-52.4,67.2,-61.8,54.6C-71.1,41.9,-76.4,26.8,-73.3,13.8C-70.1,0.7,-58.5,-10.3,-50.1,-20.6C-41.8,-30.8,-36.8,-40.2,-29,-47.8C-21.2,-55.4,-10.6,-61.3,-0.4,-60.6C9.7,-59.9,19.5,-52.7,28.4,-45.6Z" transform="translate(100 100)" /></svg>');
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+  }
+}
+
+.textSide {
+  flex: 2;
+  max-width: 700px;
+
+  
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #c2a7ff;
+  }
+
+  p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 1.3rem;
+    color: #e0e0e0;
+  }
+  .aboutUsTitle {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+}

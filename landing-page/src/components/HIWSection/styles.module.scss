@@ -1,0 +1,39 @@
+.section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // Optional smooth zoom or parallax effect on scroll
+  // background-attachment: fixed;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); // dark overlay
+  color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  max-width: 800px;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+  }
+}

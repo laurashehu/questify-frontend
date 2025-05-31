@@ -1,0 +1,35 @@
+.dashboard {
+  position: relative;  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+
+}
+
+.background-image {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/resources/Dashboard/dune-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1; 
+  pointer-events: none;  
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  background: transparent;
+}
+
+
+.topbar {
+  background: #1c1c1c;
+
+}

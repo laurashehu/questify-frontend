@@ -1,0 +1,52 @@
+.contactSection {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    
+    a {
+      display: inline-block;
+
+      img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+
+        &:hover {
+          transform: scale(1.15);
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .footerText {
+    font-size: 0.95rem;
+    color: #aaa;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    .icons {
+      gap: 2rem;
+
+      a img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .footerText {
+      font-size: 0.85rem;
+    }
+  }
+}

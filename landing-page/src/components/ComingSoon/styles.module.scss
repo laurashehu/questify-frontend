@@ -1,0 +1,60 @@
+.container {
+  height: 100vh;
+  background-image: url('../../resources/ComingSoon/1772540-Antoine-Collignon-spaceship-clouds-debris-gates.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #c2a7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #000;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    text-shadow: 0 0 5px #000;
+  }
+
+  .features {
+    background: rgba(28, 28, 28, 0.85); 
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #a07fff;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #d0bfff;
+
+        strong {
+          color: #e0d7ff;
+        }
+      }
+    }
+  }
+}

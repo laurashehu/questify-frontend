@@ -1,0 +1,95 @@
+.section {
+  width: 100%;
+  min-height: 100vh;  
+  background: #0a0a0a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px 60px;  
+  box-sizing: border-box;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  gap: 20px; 
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-image: url('../../resources/FeaturesSection/bg.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  backdrop-filter: blur(6px); 
+  color: white;
+
+  @media (max-width: 900px) {
+    padding: 20px;
+  }
+}
+
+
+.titleImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 30px;
+  object-fit: contain;
+
+  @media (max-width: 600px) {
+    max-width: 280px;
+  }
+}
+
+
+.intro {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+  gap: 20px;
+}
+
+.featureBox {
+  background-color: #0a0a0a;
+  border-left: 4px solid #c2a7ff;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2a1400;
+    transform: scale(1.03);
+  }
+
+  h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: #aaa;
+  }
+}
+
+

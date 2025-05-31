@@ -1,0 +1,39 @@
+.pageWrapper {
+  min-height: 100vh;
+background: url('../../resources/LoginSignup/bg.jpg') center/cover no-repeat;
+  color: #a0a0a0; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.contentContainer {
+  max-width: 700px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #919191aa;
+  line-height: 1.6;
+
+  h1, h2 {
+    color: #f5deb3; // soft sand color
+    font-weight: 700;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+
+  p {
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+  }
+}

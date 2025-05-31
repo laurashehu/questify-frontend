@@ -1,0 +1,83 @@
+{
+  "name": "landing-page",
+  "version": "0.1.0",
+  "homepage": "http://hsk-kr.github.io/landing-page",
+  "private": true,
+  "dependencies": {
+    "@ap.cx/react-fullpage": "^0.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^18.0.0",
+    "@types/react": "^16.9.51",
+    "@types/react-dom": "^16.9.8",
+    "classnames": "^2.2.6",
+    "firebase": "^11.8.1",
+    "framer-motion": "^4.1.17",
+    "gh-pages": "^6.3.0",
+    "postprocessing": "^6.37.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-fullpage": "^0.1.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.30.0",
+    "react-scroll-parallax": "^2.3.2",
+    "sass": "^1.62.1",
+    "three": "^0.176.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/node-logger": "^6.4.9",
+    "@storybook/preset-create-react-app": "^4.1.0",
+    "@storybook/react": "^8.6.12",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/three": "^0.176.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^4.7.0-dev.20220301",
+    "vite": "^6.3.4",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}

@@ -1,0 +1,31 @@
+.sidebar {
+  width: 200px;
+  background-color: #121212;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar a.active {
+  font-weight: 700;
+  color: #61dafb; /* or your accent color */
+}
